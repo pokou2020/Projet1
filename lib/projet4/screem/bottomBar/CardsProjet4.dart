@@ -87,15 +87,18 @@ class _CardsProjet4State extends State<CardsProjet4> {
               
               ),
     SizedBox(height: 5.h,),
-              Container(
-                height: 39.h,
-                width: MediaQuery.of(context).size.width/1.7,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.orange[900]
-                ),
-                
-                ),
+              Card(
+                elevation: 10,
+                child: Container(
+                  height: 39.h,
+                  width: MediaQuery.of(context).size.width/1.7,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.orange[900]
+                  ),
+                  
+                  ),
+              ),
                  SizedBox(height: 3.h,),
                    Text("Your card has been delivered to you. Activate",
                    style: TextStyle(
